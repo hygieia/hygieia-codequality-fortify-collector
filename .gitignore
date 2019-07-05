@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+#java certificates
+*.crt
+
 # Log file
 *.log
 
@@ -21,3 +24,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/target/
+
+# Eclipse specific ignore settings
+.settings/
+.project
+.pmdruleset.xml
+.pmd
+.classpath
+application.properties
